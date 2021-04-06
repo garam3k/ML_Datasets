@@ -1,6 +1,6 @@
-# ML_Datasets
+# <center> ML_Datasets </center>
 ----
-## Torchvision datasets (토치비젼 데이터셋)
+## <center> Torchvision datasets </center>
 ### CIFAR
 ### RRRR
 #### RRR
