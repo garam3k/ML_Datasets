@@ -17,13 +17,23 @@
     000001.jpg 2880
     000002.jpg 2937
     ```
+    <details><summary>Sample image</summary>
+    한국인 유명인 id값과 그 예시 
+    id = 0000 (강동원). 사진 몇개
+    id = xxxx (누구누구). 사진 몇개
+
+    </details>
+
 - ### 5 Landmarks  
-    Left eye, Right eye, nose, Left mouse, Right mouse 의 위치가 x,y좌표로 주어진다.
+    눈코입의 위치가 x,y좌표로 주어진다.
     ```
     lefteye_x lefteye_y righteye_x righteye_y nose_x nose_y leftmouth_x leftmouth_y rightmouth_x rightmouth_y
     000001.jpg 165  184  244  176  196  249  194  271  266  260
     000002.jpg 140  204  220  204  168  254  146  289  226  289
     ```
+    <details><summary>Sample image</summary>
+    눈코입 위치 점으로 찍은 예시
+    </details>
 - ### Attributes  
     40개의 특징유무가 Binary로 주어진다.
 
@@ -40,6 +50,9 @@
     000001.jpg -1  1  1 -1 -1 -1 -1 -1 -1 -1 -1  1 -1 -1 -1 -1 -1 -1  1  1 -1  1 -1 -1  1 -1 -1  1 -1 -1 -1  1  1 -1  1 -1  1 -1 -1  1
     000002.jpg -1 -1 -1  1 -1 -1 -1  1 -1 -1 -1  1 -1 -1 -1 -1 -1 -1 -1  1 -1  1 -1 -1  1 -1 -1 -1 -1 -1 -1  1 -1 -1 -1 -1 -1 -1 -1  1
     ```
+    <details><summary>Sample image</summary>
+    특징들에 대한 예시 이미지들
+    </details>
 - ### BBox  
     얼굴의 위치가 Box로 주어진다.  
     ```
@@ -47,11 +60,27 @@
     000001.jpg    95  71 226 313
     000002.jpg    72  94 221 306
     ```
+    <details><summary>Sample image</summary>
+    box 그린 예시
+    </details>
 
 - ### Align & Crop Images
-    예시이미지<<<>>>
+    <details><summary>Sample image</summary>
+    원본 사진과 처리된 사진
+    </details>
 
-
+- ### Related Datasets
+    <details>
+    <summary>CelebAMask-HQ Dataset</summary>
+    
+    
+    dd
+    </details>  
+    <details>
+    <summary>CelebA-Spoof Dataset</summary>
+    
+    
+    </details>  
 ## 사용방법 (TorchVsion)
 
 TorchVision.dataset 에서 기본 제공되는 데이터셋으로 다음과 같이 불러올 수 있다.  
